@@ -1,0 +1,8 @@
+com\cn\feign\Bank2ClientFallback.class
+com\cn\config\DatabaseConfiguration.class
+com\cn\service\AccountInfoService.class
+com\cn\service\AccountInfoServiceImpl.class
+com\cn\feign\Bank2Client.class
+com\cn\dao\AccountInfoDao.class
+com\cn\controller\Bank1Controller.class
+com\cn\TCCBank1Application.class

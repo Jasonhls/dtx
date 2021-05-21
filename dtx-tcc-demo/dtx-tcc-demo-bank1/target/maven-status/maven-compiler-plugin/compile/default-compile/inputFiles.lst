@@ -1,0 +1,8 @@
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\feign\Bank2Client.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\controller\Bank1Controller.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\TCCBank1Application.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\service\AccountInfoService.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\config\DatabaseConfiguration.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\dao\AccountInfoDao.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\service\AccountInfoServiceImpl.java
+E:\my_project\dtx\dtx-tcc-demo\dtx-tcc-demo-bank1\src\main\java\com\cn\feign\Bank2ClientFallback.java

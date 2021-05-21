@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dtx-tcc-demo-bank2" />
         <module name="discover-server" />
         <module name="dtx-seata-demo-bank1" />
         <module name="dtx-seata-demo-bank2" />
+        <module name="dtx-tcc-demo-bank1" />
       </profile>
     </annotationProcessing>
   </component>
