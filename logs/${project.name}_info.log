@@ -1,51 +1,59 @@
-2021-05-21 15:00:06,920 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
-2021-05-21 15:00:16,923 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
-2021-05-21 15:00:26,931 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
-2021-05-21 15:00:36,938 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
-2021-05-21 15:00:46,944 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
-2021-05-21 15:00:56,953 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
-2021-05-21 15:01:06,965 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
-2021-05-21 15:01:16,965 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
-2021-05-21 15:01:26,973 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
-2021-05-21 15:01:36,985 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
-2021-05-21 15:01:46,999 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
-2021-05-21 15:01:57,014 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
-2021-05-21 15:02:07,023 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
-2021-05-21 15:02:17,029 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
-2021-05-21 15:02:27,033 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
-2021-05-21 15:02:37,042 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
-2021-05-21 15:02:43,377 INFO [http-nio-56080-exec-6][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081 with status DOWN (replication=false)
-2021-05-21 15:02:43,898 INFO [http-nio-56080-exec-7][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081 with status DOWN (replication=true)
-2021-05-21 15:02:46,429 INFO [http-nio-56080-exec-4][AbstractInstanceRegistry.java:330] - Cancelled instance TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081 (replication=false)
-2021-05-21 15:02:46,949 WARN [http-nio-56080-exec-2][AbstractInstanceRegistry.java:315] - DS: Registry: cancel failed because Lease is not registered for: TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081
-2021-05-21 15:02:46,950 INFO [http-nio-56080-exec-2][InstanceResource.java:288] - Not Found (Cancel): TCC-DEMO-BANK1 - tcc-demo-bank1:10.10.10.199:56081
-2021-05-21 15:02:46,950 WARN [TaskBatchingWorker-target_localhost-4][ReplicationTask.java:35] - The replication of task TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081:Cancel@localhost failed with response code 404
-2021-05-21 15:02:46,950 WARN [TaskBatchingWorker-target_localhost-4][PeerEurekaNode.java:171] - TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081:Cancel@localhost: missing entry.
-2021-05-21 15:02:47,044 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
-2021-05-21 15:02:57,051 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
-2021-05-21 15:03:00,980 INFO [http-nio-56080-exec-1][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081 with status UP (replication=false)
-2021-05-21 15:03:01,507 INFO [http-nio-56080-exec-3][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:10.10.10.199:56081 with status UP (replication=true)
-2021-05-21 15:03:07,053 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
-2021-05-21 15:03:17,053 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
-2021-05-21 15:03:27,054 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
-2021-05-21 15:03:37,059 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
-2021-05-21 15:03:47,075 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
-2021-05-21 15:03:57,081 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
-2021-05-21 15:04:07,096 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
-2021-05-21 15:04:17,104 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
-2021-05-21 15:04:27,105 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
-2021-05-21 15:04:37,110 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
-2021-05-21 15:04:47,123 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
-2021-05-21 15:04:57,132 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
-2021-05-21 15:05:07,142 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
-2021-05-21 15:05:17,155 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
-2021-05-21 15:05:25,638 INFO [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][PeerAwareInstanceRegistryImpl.java:539] - Current renewal threshold is : 0
-2021-05-21 15:05:27,165 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
-2021-05-21 15:05:37,173 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
-2021-05-21 15:05:47,181 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
-2021-05-21 15:05:57,194 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
-2021-05-21 15:06:07,205 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
-2021-05-21 15:06:17,234 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 29ms
-2021-05-21 15:06:27,248 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
-2021-05-21 15:06:37,256 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
-2021-05-21 15:06:47,259 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-05-21 16:40:25,572 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+2021-05-21 16:40:26,153 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-05-21 16:40:26,341 INFO [main][GenericScope.java:295] - BeanFactory id=33c68227-122c-36dd-8028-a36de4f592a4
+2021-05-21 16:40:26,424 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67acfde5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-21 16:40:26,696 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56080 (http)
+2021-05-21 16:40:26,708 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56080"]
+2021-05-21 16:40:26,715 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2021-05-21 16:40:26,716 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-05-21 16:40:26,837 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2021-05-21 16:40:26,838 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1254 ms
+2021-05-21 16:40:26,942 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2021-05-21 16:40:26,943 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-21 16:40:26,956 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6de7778f
+2021-05-21 16:40:28,038 INFO [main][WebApplicationImpl.java:815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-05-21 16:40:28,102 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2021-05-21 16:40:28,102 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2021-05-21 16:40:28,201 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2021-05-21 16:40:28,202 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2021-05-21 16:40:28,493 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2021-05-21 16:40:28,493 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-21 16:40:28,642 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 16:40:29,569 INFO [main][InstanceInfoFactory.java:72] - Setting initial instance status as: STARTING
+2021-05-21 16:40:29,597 INFO [main][DiscoveryClient.java:365] - Initializing Eureka in region us-east-1
+2021-05-21 16:40:29,597 INFO [main][DiscoveryClient.java:368] - Client configured to neither register nor query for data.
+2021-05-21 16:40:29,604 INFO [main][DiscoveryClient.java:381] - Discovery Client initialized at timestamp 1621586429603 with initial instances count: 0
+2021-05-21 16:40:29,641 INFO [main][DefaultEurekaServerContext.java:63] - Initializing ...
+2021-05-21 16:40:29,643 INFO [main][PeerEurekaNodes.java:187] - Adding new peer nodes [http://localhost:56080/eureka/]
+2021-05-21 16:40:30,165 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2021-05-21 16:40:30,165 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2021-05-21 16:40:30,166 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2021-05-21 16:40:30,166 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2021-05-21 16:40:30,303 INFO [main][PeerEurekaNodes.java:109] - Replica node URL:  http://localhost:56080/eureka/
+2021-05-21 16:40:30,310 INFO [main][AbstractInstanceRegistry.java:151] - Finished initializing remote region registries. All known remote regions: []
+2021-05-21 16:40:30,311 INFO [main][DefaultEurekaServerContext.java:70] - Initialized
+2021-05-21 16:40:30,319 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-21 16:40:30,419 INFO [main][EurekaServiceRegistry.java:41] - Registering application SEATA-DEMO-DISCOVERY with eureka with status UP
+2021-05-21 16:40:30,422 INFO [Thread-24][EurekaServerBootstrap.java:110] - Setting the eureka configuration..
+2021-05-21 16:40:30,422 INFO [Thread-24][EurekaServerBootstrap.java:115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-05-21 16:40:30,423 INFO [Thread-24][EurekaServerBootstrap.java:129] - Eureka environment value eureka.environment is not set, defaulting to test
+2021-05-21 16:40:30,432 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56080"]
+2021-05-21 16:40:30,438 INFO [Thread-24][EurekaServerBootstrap.java:188] - isAws returned false
+2021-05-21 16:40:30,438 INFO [Thread-24][EurekaServerBootstrap.java:153] - Initialized server context
+2021-05-21 16:40:30,438 INFO [Thread-24][PeerAwareInstanceRegistryImpl.java:241] - Got 1 instances from neighboring DS node
+2021-05-21 16:40:30,439 INFO [Thread-24][PeerAwareInstanceRegistryImpl.java:242] - Renew threshold is: 1
+2021-05-21 16:40:30,439 INFO [Thread-24][PeerAwareInstanceRegistryImpl.java:253] - Changing status to UP
+2021-05-21 16:40:30,446 INFO [Thread-24][EurekaServerInitializerConfiguration.java:74] - Started Eureka Server
+2021-05-21 16:40:30,460 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56080 (http) with context path ''
+2021-05-21 16:40:30,460 INFO [main][EurekaAutoServiceRegistration.java:145] - Updating port to 56080
+2021-05-21 16:40:30,462 INFO [main][StartupInfoLogger.java:59] - Started DiscoveryServer in 6.875 seconds (JVM running for 8.439)
+2021-05-21 16:40:31,136 INFO [RMI TCP Connection(2)-10.10.10.199][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 16:40:31,136 INFO [RMI TCP Connection(2)-10.10.10.199][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2021-05-21 16:40:31,143 INFO [RMI TCP Connection(2)-10.10.10.199][FrameworkServlet.java:546] - Completed initialization in 7 ms
+2021-05-21 16:40:40,442 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-05-21 16:40:44,669 INFO [Thread-26][EurekaServiceRegistry.java:65] - Unregistering application SEATA-DEMO-DISCOVERY with eureka with status DOWN
+2021-05-21 16:40:44,671 INFO [Thread-26][DefaultEurekaServerContext.java:76] - Shutting down ...
+2021-05-21 16:40:44,676 INFO [Thread-26][DefaultEurekaServerContext.java:79] - Shut down
+2021-05-21 16:40:44,679 INFO [Thread-26][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 16:40:44,683 INFO [Thread-26][DiscoveryClient.java:906] - Shutting down DiscoveryClient ...
+2021-05-21 16:40:44,683 INFO [Thread-26][DiscoveryClient.java:929] - Completed shut down of DiscoveryClient
